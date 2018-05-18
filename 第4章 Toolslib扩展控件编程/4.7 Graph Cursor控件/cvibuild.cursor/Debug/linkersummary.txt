@@ -1,0 +1,14 @@
+cursor.obj
+cvi.lib
+analysis.lib
+cvistart.lib
+graphcursors.obj
+kernel32.lib
+toolbox.obj
+user32.lib
+advapi32.lib
+cviauto.lib
+gdi32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

@@ -1,0 +1,1 @@
+-force-include-file "uartfilesend.c";"c:\Users\junjie\Desktop\cvi\第7章 通信接口与动态数据交换技术\7.1 文件发送\uartfilesend.c" 

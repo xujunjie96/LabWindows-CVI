@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelcb]
+Class="Function"
+Prototype="int panelcb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[editcopy]
+Class="Function"
+Prototype="void editcopy(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[editalwaystop]
+Class="Function"
+Prototype="void editalwaystop(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[editexit]
+Class="Function"
+Prototype="void editexit(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[helpabout]
+Class="Function"
+Prototype="void helpabout(int menuBar, int menuItem, void *callbackData, int panel);"
+

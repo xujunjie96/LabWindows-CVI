@@ -1,0 +1,1 @@
+-force-include-file "animation.c";"c:\Users\junjie\Desktop\cvi\第四章 Toolslib扩展控件编程\4.3 Animation Control控件\animation.c" 

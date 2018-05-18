@@ -1,0 +1,28 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[projection]
+Class="Function"
+Prototype="int projection(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[drawline]
+Class="Function"
+Prototype="int drawline(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[generatewave]
+Class="Function"
+Prototype="int generatewave(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clearwave]
+Class="Function"
+Prototype="int clearwave(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitsys]
+Class="Function"
+Prototype="int quitsys(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[trans]
+Class="Function"
+Prototype="int trans(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

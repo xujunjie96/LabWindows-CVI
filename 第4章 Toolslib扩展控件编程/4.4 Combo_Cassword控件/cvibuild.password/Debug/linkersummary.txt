@@ -1,0 +1,14 @@
+password.obj
+cvi.lib
+cvistart.lib
+combobox.obj
+pwctrl.obj
+toolbox.obj
+advapi32.lib
+cviauto.lib
+gdi32.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

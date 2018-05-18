@@ -1,0 +1,5 @@
+overview
+
+This demo illustrates the use of the LabWindows/CVI function, LaunchExecutable().  LaunchExecutable() starts a program and returns without waiting for it to exit.  The program must be an actual executable, i.e. built in functions of a command interpreter are not valid. 
+On MS Windows, the executable can be either a  MS DOS or MS Windows executable, including *.exe, *.com, *.bat and *.pif files.
+In addition, this program demonstrates how you can incorporate Windows help into the programs that you build in LabWindows/CVI.  You can even launch the Windows help with context information so your LabWindows/CVI applications can have context-sensitive help.

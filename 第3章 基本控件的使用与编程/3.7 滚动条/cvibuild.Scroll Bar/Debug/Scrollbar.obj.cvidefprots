@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[scrollbarCB]
+Class="Function"
+Prototype="int scrollbarCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[adjustvalue]
+Class="Function"
+Prototype="int adjustvalue(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[getvalue]
+Class="Function"
+Prototype="void getvalue();"
+

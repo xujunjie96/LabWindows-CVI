@@ -1,0 +1,1 @@
+-force-include-file "hotring.c";"c:\Users\junjie\Desktop\cvi\第四章 Toolslib扩展控件编程\4.1 Hot Ring控件\hotring.c" 

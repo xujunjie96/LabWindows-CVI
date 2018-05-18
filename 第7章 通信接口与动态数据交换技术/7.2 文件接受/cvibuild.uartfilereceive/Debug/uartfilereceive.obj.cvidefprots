@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[filesel]
+Class="Function"
+Prototype="int filesel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quitcallback]
+Class="Function"
+Prototype="int Quitcallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[receivefilename]
+Class="Function"
+Prototype="int receivefilename(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[receivefile]
+Class="Function"
+Prototype="int receivefile(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

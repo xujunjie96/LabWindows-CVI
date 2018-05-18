@@ -1,0 +1,1 @@
+-force-include-file "filebrowsetest.c";"c:\Users\junjie\Desktop\cvi\第四章 Toolslib扩展控件编程\4.5 File Browser控件\filebrowsetest.c" -force-include-file "filebrowsetest.h";"c:\Users\junjie\Desktop\cvi\第四章 Toolslib扩展控件编程\4.5 File Browser控件\filebrowsetest.h" 

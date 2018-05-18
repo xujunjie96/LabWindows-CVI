@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[timerweight]
+Class="Function"
+Prototype="int timerweight(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[rs232quit]
+Class="Function"
+Prototype="int rs232quit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[rs232receive]
+Class="Function"
+Prototype="int rs232receive(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ComCallback]
+Class="Function"
+Prototype="void ComCallback(int COMport, int eventMask, void *callbackdata);"
+

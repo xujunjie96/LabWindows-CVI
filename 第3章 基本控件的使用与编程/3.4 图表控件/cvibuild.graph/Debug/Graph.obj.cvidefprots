@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[graph]
+Class="Function"
+Prototype="int graph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[stripchart]
+Class="Function"
+Prototype="int stripchart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[digitalgraph]
+Class="Function"
+Prototype="int digitalgraph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[EventFunction]
+Class="Function"
+Prototype="int EventFunction(int panelOrMenuBarHandle, int controlOrMenuItemID, int event, void *callbackData, int eventData1, int eventData2);"
+

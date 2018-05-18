@@ -1,0 +1,40 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[messagepop]
+Class="Function"
+Prototype="int messagepop(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[confirmpop]
+Class="Function"
+Prototype="int confirmpop(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[genericpopup]
+Class="Function"
+Prototype="int genericpopup(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[promptpopup]
+Class="Function"
+Prototype="int promptpopup(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[font]
+Class="Function"
+Prototype="int font(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fileselectpopup]
+Class="Function"
+Prototype="int fileselectpopup(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ygraphpopup]
+Class="Function"
+Prototype="int ygraphpopup(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[dirpopup]
+Class="Function"
+Prototype="int dirpopup(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitsys]
+Class="Function"
+Prototype="int quitsys(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

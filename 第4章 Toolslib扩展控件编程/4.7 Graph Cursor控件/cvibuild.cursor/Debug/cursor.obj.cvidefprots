@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[index]
+Class="Function"
+Prototype="int index(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[pos]
+Class="Function"
+Prototype="int pos(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitsys]
+Class="Function"
+Prototype="int quitsys(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clear]
+Class="Function"
+Prototype="int clear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[drawnoise]
+Class="Function"
+Prototype="int drawnoise(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

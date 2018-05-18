@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelcb]
+Class="Function"
+Prototype="int panelcb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[drivevol]
+Class="Function"
+Prototype="int drivevol(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[path]
+Class="Function"
+Prototype="int path(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fileopen]
+Class="Function"
+Prototype="int fileopen(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[drivevolume]
+Class="Function"
+Prototype="void drivevolume();"
+

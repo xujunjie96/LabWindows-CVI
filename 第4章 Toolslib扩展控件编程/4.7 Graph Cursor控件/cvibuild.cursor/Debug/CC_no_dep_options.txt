@@ -1,0 +1,1 @@
+-force-include-file "cursor.c";"c:\Users\junjie\Desktop\cvi\第四章 Toolslib扩展控件编程\4.7 Graph Cursor控件\cursor.c" 

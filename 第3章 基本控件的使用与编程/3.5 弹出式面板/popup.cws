@@ -1,0 +1,171 @@
+[Workspace Header]
+Version = 1700
+Pathname = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.cws"
+CVI Dir = "/d/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "popup.prj"
+Drag Bar Left = 307
+Window Top = 231
+Window Left = 233
+Window Bottom = 666
+Window Right = 1064
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 3
+Window Confinement Region Enabled = True
+MainColumnWidth = 290
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.uir"
+File Type = "User Interface Resource"
+Disk Date = 3606376523
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Window Height = 451
+Window Width = 895
+Window Z-Order = 2
+
+[File 0002]
+Path = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.c"
+File Type = "CSource"
+Disk Date = 3606376643
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,89,90,90,0,69,69,0,0,165,0,0,0,0,0,40,78,0,89,0,531,895,1,0,"
+
+[File 0003]
+Path = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.h"
+File Type = "Include"
+Disk Date = 3606376357
+In Projects = ""
+Window Top = 126
+Window Left = 58
+Window Z-Order = 3
+Source Window State = "1,18,18,18,9,23,23,0,3,80,0,0,0,0,0,25,0,0,18,9,531,895,1,0,"
+
+[Tab Order]
+Tab 0001 = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.c"
+Tab 0002 = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.uir"
+Tab 0003 = "/c/Users/junjie/Desktop/3.5 弹出式面板/popup.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

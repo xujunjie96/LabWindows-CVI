@@ -1,0 +1,13 @@
+animation.obj
+cvi.lib
+cvistart.lib
+animate.obj
+kernel32.lib
+toolbox.obj
+user32.lib
+advapi32.lib
+cviauto.lib
+gdi32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

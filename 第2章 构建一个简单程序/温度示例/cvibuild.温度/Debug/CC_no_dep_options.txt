@@ -1,0 +1,1 @@
+-force-include-file "温度.c";"c:\Users\junjie\Desktop\cvi\第二章 构建一个简单程序\温度示例\温度.c" 

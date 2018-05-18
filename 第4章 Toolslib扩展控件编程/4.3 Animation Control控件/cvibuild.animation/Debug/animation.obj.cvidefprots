@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[pause]
+Class="Function"
+Prototype="int pause(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[restart]
+Class="Function"
+Prototype="int restart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitsys]
+Class="Function"
+Prototype="int quitsys(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[interval]
+Class="Function"
+Prototype="int interval(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[animationevent]
+Class="Function"
+Prototype="int animationevent(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
