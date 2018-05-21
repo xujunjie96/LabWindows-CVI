@@ -1,0 +1,1 @@
+-force-include-file "ddesample.c";"c:\Users\junjie\Desktop\cvi\learn\第7章 通信接口与动态数据交换技术\7.4 DDE动态链数据交换技术\ddesample.c" 
