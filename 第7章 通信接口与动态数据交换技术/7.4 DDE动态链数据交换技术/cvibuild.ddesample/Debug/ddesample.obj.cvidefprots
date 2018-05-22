@@ -1,0 +1,28 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[startexcel]
+Class="Function"
+Prototype="int startexcel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[linkexcel]
+Class="Function"
+Prototype="int linkexcel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clientCB]
+Class="Function"
+Prototype="int clientCB(unsigned int handle, char *topicName, char *itemName, int xType, int dataFmt, int dataSize, void *dataPtr, void *callbackData);"
+
+[wavesignal]
+Class="Function"
+Prototype="int wavesignal(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ddewave]
+Class="Function"
+Prototype="void ddewave(char *databuf, char *testbuf, double *wave);"
+
