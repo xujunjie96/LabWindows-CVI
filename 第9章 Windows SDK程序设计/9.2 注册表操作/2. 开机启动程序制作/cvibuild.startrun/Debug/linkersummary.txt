@@ -1,0 +1,12 @@
+startrun.obj
+cvi.lib
+cvistart.lib
+advapi32.lib
+toolbox.obj
+cviauto.lib
+gdi32.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module
