@@ -1,0 +1,4 @@
+LIBRARY dllsample
+
+EXPORTS
+GetVirtualKey

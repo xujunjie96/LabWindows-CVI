@@ -1,0 +1,5 @@
+-inrc c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Debug\resources.in.rc
+-outrc c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Debug\resources.out.rc
+-outdef c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Debug\dllsample.dll.defs
+-indefprot c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Debug\dllsample.obj.cvidefprots
+-dllName dllsample.dll

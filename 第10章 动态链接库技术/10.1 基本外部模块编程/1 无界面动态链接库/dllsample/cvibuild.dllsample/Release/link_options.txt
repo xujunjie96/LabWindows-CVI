@@ -1,0 +1,38 @@
+-nologo
+-out:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dllsample.dll
+-def:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dllsample.dll.defs
+-implib:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dllsample.lib
+-ignoreexports
+-dependenciesMapFile:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dependencies.lnk.in
+-arch:x86
+-timestamp
+-res:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\resources.res
+-entry:_CVIDllMainStartupCode@12
+-base:0x10000000
+-linked:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\linkersummary.txt
+-dlldeps:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dlldependencies.txt
+-licensing:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\linkerlicensing.txt
+-browsedeps:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:c:\Users\junjie\Desktop\3\dllsample\cvibuild.dllsample\Release\dllsample.obj
+-more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvistart.lib
+-more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2017\bin\msvc\analysis.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cviauto.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvidotnet.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvinetstreams.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvinetv.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvintwrk.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\nivxi.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\omp.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:d:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib
