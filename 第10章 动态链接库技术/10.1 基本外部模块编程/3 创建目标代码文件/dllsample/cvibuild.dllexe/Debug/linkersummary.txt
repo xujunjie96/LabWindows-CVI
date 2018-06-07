@@ -1,0 +1,9 @@
+dllexe.obj
+dllsample.obj
+cvi.lib
+cvistart.lib
+user32.lib
+kernel32.lib
+EXE Symbol Module
+Exports Module
+Resource Module
