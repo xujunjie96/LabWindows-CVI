@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 ﻿<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
       <dpiAware>False</dpiAware>
     </asmv3:windowsSettings>
   </asmv3:application>
+=======
+﻿<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+      <dpiAware>False</dpiAware>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+>>>>>>> 6cb5d42fc5d5a1f945cc808ffbde2a6f84a8e888
 </assembly> 
