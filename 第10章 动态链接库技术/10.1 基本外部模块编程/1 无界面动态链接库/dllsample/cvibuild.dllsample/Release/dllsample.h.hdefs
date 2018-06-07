@@ -1,0 +1,4 @@
+[GetVirtualKey]
+Class="Function"
+Prototype="int GetVirtualKey(int *Capslock, int *NumLock, int *ScrollLock, int *AsciiA);"
+

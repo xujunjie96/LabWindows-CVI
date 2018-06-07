@@ -1,0 +1,9 @@
+pollingqueueclient.obj
+cvi.lib
+dataskt.lib
+cvistart.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

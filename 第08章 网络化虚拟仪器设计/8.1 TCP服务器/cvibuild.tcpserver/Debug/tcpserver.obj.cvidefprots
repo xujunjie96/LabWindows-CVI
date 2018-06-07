@@ -1,0 +1,40 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[connect]
+Class="Function"
+Prototype="int connect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[disconnect]
+Class="Function"
+Prototype="int disconnect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer]
+Class="Function"
+Prototype="int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clear]
+Class="Function"
+Prototype="int clear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[send]
+Class="Function"
+Prototype="int send(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TCPServerCB]
+Class="Function"
+Prototype="int TCPServerCB(unsigned int handle, int xType, int errCode, void *callbackData);"
+
+[gethostinfo]
+Class="Function"
+Prototype="void gethostinfo();"
+
+[setmode]
+Class="Function"
+Prototype="void setmode(int connect, int disconnect, int send);"
+

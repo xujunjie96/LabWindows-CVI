@@ -1,0 +1,44 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[disconnect]
+Class="Function"
+Prototype="int disconnect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[connect]
+Class="Function"
+Prototype="int connect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clear]
+Class="Function"
+Prototype="int clear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[send]
+Class="Function"
+Prototype="int send(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer]
+Class="Function"
+Prototype="int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[dsfunctionread]
+Class="Function"
+Prototype="void dsfunctionread(int dsHandle, int event, void *callbackData);"
+
+[dsfunctionwrite]
+Class="Function"
+Prototype="void dsfunctionwrite(int dsHandle, int event, void *callbackData);"
+
+[insertcombo]
+Class="Function"
+Prototype="void insertcombo();"
+
+[geturl]
+Class="Function"
+Prototype="void geturl(int ReadOrWriteURL, char *url);"
+

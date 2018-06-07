@@ -1,0 +1,5 @@
+-inrc c:\Users\junjie\Desktop\3\cvibuild.dll\Release\resources.in.rc
+-outrc c:\Users\junjie\Desktop\3\cvibuild.dll\Release\resources.out.rc
+-outdef c:\Users\junjie\Desktop\3\cvibuild.dll\Release\dll.dll.defs
+-indefprot c:\Users\junjie\Desktop\3\cvibuild.dll\Release\dll.obj.cvidefprots
+-dllName dll.dll

@@ -1,0 +1,4 @@
+[InitUIForDLL]
+Class="Function"
+Prototype="int InitUIForDLL();"
+

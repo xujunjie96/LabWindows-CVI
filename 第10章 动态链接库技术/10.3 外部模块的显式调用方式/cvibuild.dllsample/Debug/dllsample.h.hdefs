@@ -1,0 +1,8 @@
+[function1]
+Class="Function"
+Prototype="void function1();"
+
+[function2]
+Class="Function"
+Prototype="int function2(int x, int y);"
+

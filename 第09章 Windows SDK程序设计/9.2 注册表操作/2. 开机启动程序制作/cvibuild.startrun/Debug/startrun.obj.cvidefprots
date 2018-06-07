@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[run]
+Class="Function"
+Prototype="int run(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[unrun]
+Class="Function"
+Prototype="int unrun(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

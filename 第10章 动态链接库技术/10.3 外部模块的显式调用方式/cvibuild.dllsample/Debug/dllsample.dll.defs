@@ -1,0 +1,5 @@
+LIBRARY dllsample
+
+EXPORTS
+function2
+function1

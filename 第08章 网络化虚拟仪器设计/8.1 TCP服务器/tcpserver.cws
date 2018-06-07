@@ -1,0 +1,208 @@
+[Workspace Header]
+Version = 1700
+Pathname Line0001 = "/c/Users/junjie/Desktop/cvi/learn/第8章 网络化虚拟仪器设计/8.1 TCP服务器/tcpserv"
+Pathname Line0002 = "er.cws"
+CVI Dir = "/d/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "tcpserver.prj"
+Drag Bar Left = 341
+Window Top = 234
+Window Left = 214
+Window Bottom = 916
+Window Right = 760
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 5
+Window Confinement Region Enabled = True
+MainColumnWidth = 324
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path Line0001 = "/c/Users/junjie/Desktop/cvi/learn/第8章 网络化虚拟仪器设计/8.1 TCP服务器/tcpserv"
+Path Line0002 = "er.uir"
+File Type = "User Interface Resource"
+Disk Date = 3609921595
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Height = 531
+Window Width = 895
+Window Z-Order = 1
+
+[File 0002]
+Path = "/c/Users/junjie/Desktop/cvi/LabWindows/8/TCP/TCPServer/tcp.uir"
+File Type = "User Interface Resource"
+Disk Date = 3609738151
+In Projects = ""
+Window Top = 95
+Window Left = 42
+Window Height = 531
+Window Width = 895
+Window Z-Order = 5
+
+[File 0003]
+Path Line0001 = "/c/Users/junjie/Desktop/cvi/learn/第8章 网络化虚拟仪器设计/8.1 TCP服务器/tcpserv"
+Path Line0002 = "er.c"
+File Type = "CSource"
+Disk Date = 3609902898
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Z-Order = 2
+Source Window State = "1,77,77,77,55,56,56,0,0,80,0,4,0,4,0,25,62,0,77,56,531,895,1,0,"
+
+[File 0004]
+Path = "/d/Program Files (x86)/National Instruments/CVI2017/include/ansi/string.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = ""
+Window Top = 33
+Window Left = 10
+Window Z-Order = 4
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,28,0,40,42,531,895,1,0,"
+
+[File 0005]
+Path = "/d/Program Files (x86)/National Instruments/CVI2017/include/tcpsupp.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = ""
+Window Top = 126
+Window Left = 58
+Window Z-Order = 3
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,24,30,531,895,1,0,"
+
+[Tab Order]
+Tab 0001 Line0001 = "/c/Users/junjie/Desktop/cvi/learn/第8章 网络化虚拟仪器设计/8.1 TCP服务器/tcpserv"
+Tab 0001 Line0002 = "er.uir"
+Tab 0002 = "/c/Users/junjie/Desktop/cvi/LabWindows/8/TCP/TCPServer/tcp.uir"
+Tab 0003 Line0001 = "/c/Users/junjie/Desktop/cvi/learn/第8章 网络化虚拟仪器设计/8.1 TCP服务器/tcpserv"
+Tab 0003 Line0002 = "er.c"
+Tab 0004 = "/d/Program Files (x86)/National Instruments/CVI2017/include/ansi/string.h"
+Tab 0005 = "/d/Program Files (x86)/National Instruments/CVI2017/include/tcpsupp.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "datapointernumber"
+
+[Watch 2]
+Watch Expression = "value"
+
+[Watch 3]
+Watch Expression = "result"
+

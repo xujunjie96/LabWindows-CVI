@@ -1,0 +1,6 @@
+-inrc c:\Users\junjie\Desktop\3\cvibuild.dll\Debug\resources.in.rc
+-outrc c:\Users\junjie\Desktop\3\cvibuild.dll\Debug\resources.out.rc
+-inhdef c:\Users\junjie\Desktop\3\cvibuild.dll\Debug\dllres.h.hdefs
+-outdef c:\Users\junjie\Desktop\3\cvibuild.dll\Debug\dll.dll.defs
+-indefprot c:\Users\junjie\Desktop\3\cvibuild.dll\Debug\dll.obj.cvidefprots
+-dllName dll.dll

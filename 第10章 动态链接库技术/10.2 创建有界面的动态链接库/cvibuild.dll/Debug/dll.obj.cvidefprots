@@ -1,0 +1,28 @@
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[InitUIForDLL]
+Class="Function"
+Prototype="int InitUIForDLL();"
+
+[DiscardUIObjectsForDLL]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLL();"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[terminate]
+Class="Function"
+Prototype="int terminate(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[lanch]
+Class="Function"
+Prototype="int lanch(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[openfile]
+Class="Function"
+Prototype="int openfile(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
