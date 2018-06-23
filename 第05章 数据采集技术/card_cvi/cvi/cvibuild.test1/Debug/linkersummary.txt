@@ -1,0 +1,11 @@
+DAQTasktest.obj
+test1.obj
+cvi.lib
+NIDAQmx.lib
+cvistart.lib
+kernel32.lib
+NIDAQmx.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

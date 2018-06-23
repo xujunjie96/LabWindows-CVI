@@ -1,0 +1,51 @@
+CCFLAGS = -g ;
+HDRS = 	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"d:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"d:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"d:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "DAQTasktest.c" = "c:\\Users\\junjie\\Desktop\\card_cvi" ;
+LOCATE on "DAQTasktest.h" = "c:\\Users\\junjie\\Desktop\\card_cvi" ;
+LOCATE on "NIDAQmx.h" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\DAQmx ANSI C Dev\\include" ;
+LOCATE on "test1.c" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi" ;
+Object "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj" : "c:\\Users\\junjie\\Desktop\\card_cvi\\DAQTasktest.c" ;
+FILENUM on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj" = 1 ;
+DEFPROTS on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj.out" ;
+PrjObjects += "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\DAQTasktest.obj" ;
+Object "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj" : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\test1.c" ;
+FILENUM on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj" = 2 ;
+DEFPROTS on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj" = "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj.out" ;
+PrjObjects += "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.obj" ;
+Object "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\resources.res" : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\resources.res" : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.exe" : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.exe" : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\junjie\\Desktop\\card_cvi\\cvi\\cvibuild.test1\\Debug\\test1.exe" ;

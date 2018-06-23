@@ -1,0 +1,1 @@
+-force-include-file "DAQTasktest.c";"c:\Users\junjie\Desktop\card_cvi\DAQTasktest.c" -force-include-file "DAQTasktest.h";"c:\Users\junjie\Desktop\card_cvi\DAQTasktest.h" -force-include-file "NIDAQmx.h";"c:\Users\junjie\Desktop\card_cvi\cvi\DAQmx ANSI C Dev\include\NIDAQmx.h" -force-include-file "test1.c";"c:\Users\junjie\Desktop\card_cvi\cvi\test1.c" 

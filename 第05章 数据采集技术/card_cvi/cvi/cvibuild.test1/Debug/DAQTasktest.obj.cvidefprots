@@ -1,0 +1,4 @@
+[CreateDAQTasktest]
+Class="Function"
+Prototype="long CreateDAQTasktest(void **taskOut1);"
+
